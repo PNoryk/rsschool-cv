@@ -1,3 +1,5 @@
+<img align="right" width="150" alt="My photo" src="https://avatars.githubusercontent.com/u/24247833?s=460&amp;u=a17072de9d13ef2839d75de62714d20190823f38&amp;v=4">
+
 # Pavel Noryk
 
 Phone: +375445704971 \
