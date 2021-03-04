@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    min-width: 330px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-top: 2rem;
+}
+
+.photo {
+    float: right;
+    position: relative;
+    top: -135px;
+}
+
+.mt-2rem {
+    margin-top: 2rem;
+}
+
+.text-black {
+    color: black;
+}
+
+a:not(:hover) {
+    text-decoration: none;
+}
