@@ -6,18 +6,32 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<main class="container">
+<header>
+  <nav class="navigation">
+    <div class="container">
+      <ul class="navigation-list">
+        <li><a href="#objective">Objective</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#employmentHistory">Employment History</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main class="main container">
   <h1>Pavel Noryk</h1>
   <p>Phone: <a class="text-black" href="tel:+375445704971">+375445704971</a></p>
   <p>Email: <a class="text-black" href="mailto:pnoryk@gmail.com">pnoryk@gmail.com</a></p>
   <img class="photo" src="img.jpg" alt="Photo">
   <section class="section">
-    <h2>Objective</h2>
+    <h2 id="objective">Objective</h2>
     <p>Applying for a position of Middle Frontend Developer</p>
   </section>
 
   <section class="section">
-    <h2>Summary</h2>
+    <h2 id="summary">Summary</h2>
 
     <p>I am a purposeful and highly motivated person who can adjust quickly to new surroundings.</p>
     <p>My personal qualities such as sociability and dependability make me good at teamwork.</p>
@@ -25,19 +39,21 @@
   </section>
 
   <section class="section">
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
 
-    <p>I started to learn Python in 2015.</p>
-    <p>Python Framework: Django, DRF, FastAPI, asyncio</p>
-    <p>Frontend: HTML, CSS, JS(ES6+), Vue</p>
-    <p>Database Management: SQLServer, PostgreSQL</p>
-    <p>Tools: Git, Docker, GitlabCI, RabbitMQ</p>
+    <ul class="skills-list">
+      <li class="skills-list__list-item">I started to learn Python in 2015.</li>
+      <li class="skills-list__list-item">Python Framework: Django, DRF, FastAPI, asyncio</li>
+      <li class="skills-list__list-item">Frontend: HTML, CSS, JS(ES6+), Vue</li>
+      <li class="skills-list__list-item">Database Management: SQLServer, PostgreSQL</li>
+      <li class="skills-list__list-item">Tools: Git, Docker, GitlabCI, RabbitMQ</li>
 
-    <p class="mt-2rem">English Level: Intermediate</p>
+      <li class="skills-list__list-item skills-list__list-item--english">English Level: Intermediate</li>
+    </ul>
   </section>
 
   <section class="section">
-    <h2>Education</h2>
+    <h2 id="education">Education</h2>
 
     <ul>
       <li>
@@ -49,12 +65,18 @@
     </ul>
   </section>
   <section class="section">
-    <h2>Employment History</h2>
+    <h2 id="employmentHistory">Employment History</h2>
 
     <ul>
       <li>03/2019 - today: Software developer in ООО “Вайсвеб” company</li>
     </ul>
   </section>
 </main>
+<footer class="footer">
+  <div class="container footer__container">
+    <p><a class="text-black" href="https://github.com/pnoryk">PNoryk</a></p>
+    <p>2021</p>
+    <a href="https://rs.school/js/" target="_blank"><img class="footer__rs-logo" src="images/rs_school_js.svg" alt="Логотип школы RS school"></a></div>
+</footer>
 </body>
 </html>
